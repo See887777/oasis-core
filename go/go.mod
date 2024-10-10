@@ -19,7 +19,7 @@ require (
 	github.com/cenkalti/backoff/v4 v4.2.1
 	github.com/cometbft/cometbft v0.37.9
 	github.com/cometbft/cometbft-db v0.7.0
-	github.com/cosmos/gogoproto v1.4.1
+	github.com/cosmos/gogoproto v1.7.0
 	github.com/dgraph-io/badger/v4 v4.3.1
 	github.com/eapache/channels v1.1.0
 	github.com/fxamacker/cbor/v2 v2.4.0
@@ -33,8 +33,9 @@ require (
 	github.com/hashicorp/go-plugin v1.4.6
 	github.com/hpcloud/tail v1.0.0
 	github.com/ipfs/go-log/v2 v2.5.1
-	github.com/libp2p/go-libp2p v0.36.3
+	github.com/libp2p/go-libp2p v0.36.5
 	github.com/libp2p/go-libp2p-pubsub v0.12.0
+	github.com/mdlayher/vsock v1.2.1
 	github.com/multiformats/go-multiaddr v0.13.0
 	github.com/oasisprotocol/curve25519-voi v0.0.0-20230904125328-1f23a7beb09a
 	github.com/oasisprotocol/deoxysii v0.0.0-20220228165953-2091330c22b7
@@ -95,7 +96,8 @@ require (
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/flatbuffers v24.3.25+incompatible // indirect
-	github.com/google/gofuzz v1.0.0 // indirect
+	github.com/google/go-cmp v0.6.0 // indirect
+	github.com/google/gofuzz v1.2.0 // indirect
 	github.com/google/gopacket v1.1.19 // indirect
 	github.com/google/orderedcode v0.0.1 // indirect
 	github.com/google/pprof v0.0.0-20240727154555-813a5fbdbec8 // indirect
@@ -131,6 +133,7 @@ require (
 	github.com/mattn/go-colorable v0.1.13 // indirect
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/mattn/go-runewidth v0.0.9 // indirect
+	github.com/mdlayher/socket v0.4.1 // indirect
 	github.com/miekg/dns v1.1.62 // indirect
 	github.com/mikioh/tcpinfo v0.0.0-20190314235526-30a79bb1804b // indirect
 	github.com/mikioh/tcpopt v0.0.0-20190314235656-172688c1accc // indirect
@@ -144,7 +147,7 @@ require (
 	github.com/mr-tron/base58 v1.2.0 // indirect
 	github.com/multiformats/go-base32 v0.1.0 // indirect
 	github.com/multiformats/go-base36 v0.2.0 // indirect
-	github.com/multiformats/go-multiaddr-dns v0.3.1 // indirect
+	github.com/multiformats/go-multiaddr-dns v0.4.0 // indirect
 	github.com/multiformats/go-multiaddr-fmt v0.1.0 // indirect
 	github.com/multiformats/go-multibase v0.2.0 // indirect
 	github.com/multiformats/go-multicodec v0.9.0 // indirect
