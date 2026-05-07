@@ -255,6 +255,11 @@ func (d *badgerDBImpl) Stats() map[string]string {
 	return m
 }
 
+func (d *badgerDBImpl) Compact(start []byte, end []byte) error {
+	// Explicit compaction is not currently supported in badger.
+	return nil
+}
+
 func (d *badgerDBImpl) Size() (int64, error) {
 	lsm, vlog := d.db.Size()
 	return lsm + vlog, nil
